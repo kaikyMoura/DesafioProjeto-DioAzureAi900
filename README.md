@@ -1,5 +1,8 @@
 <h1 align="center">Nba-stats-prediction</h2>
 
+
+### Introdução
+
 Este repositório foi criado para o desafio de projeto proposto no curso Microsoft - Fundamentos de IA (Azure AI-900), promovido pela DIO.
 
 O objetivo do desafio é desenvolver um modelo de previsão utilizando o Azure Machine Learning e o recurso AutoML. Como proposta prática, decidi criar um modelo para prever a pontuação média por jogo de jogadores da NBA, utilizando um conjunto de dados encontrado no Kaggle.
@@ -9,6 +12,8 @@ O objetivo do desafio é desenvolver um modelo de previsão utilizando o Azure M
     - [Download do Dataset](https://github.com/user-attachments/files/18876175/NBA_02122025_Traditional.csv)
 
 O conjunto de dados contém estatísticas dos jogadores da temporada 2024-2025, fornecendo uma base sólida para treinar o modelo de IA.
+
+### Para o modelo eu utilizei o modelo de regressão com a coluna `PTS` como destino.
 
 ##
 
@@ -28,11 +33,11 @@ Estrutura da tabela:
 
 
 
-Pra criar minha predição eu seguir o passo à passo disponivel pela Microsoft: [mslearn-ai-fundamentals]
+Pra criar minha predição eu segui o passo à passo disponivel pela Microsoft: [mslearn-ai-fundamentals]
 
 ##
 
-### Crie um espaço de trabalho do Azure Machine Learning
+### Criar um espaço de trabalho do Azure Machine Learning
 
   1. O primeiro passo é acessar o [portal da Azure](https://portal.azure.com) utilizando as credencias usadas para criar a conta no Azure.
   
@@ -114,7 +119,7 @@ Exemplo de arquivo MLTable:
 
 - **Tipo de tarefa**: **Regressão**
 - **Ativo de dados**: `bike-rentals`
-- **Coluna de destion**: `nome_da_coluna_de_destion` (integer ou decimal)
+- **Coluna de destino**: `nome_da_coluna_de_destion` (integer ou decimal)
   
 - **Exibir definições de configuração adicionair**:
   - **Métrica primária**: `NormalizedRootMeanSquaredError`
