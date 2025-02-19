@@ -1,4 +1,4 @@
-<h1 align="center">Nba-stats-prediction</h2>
+<h1 align="center">Nba-stats-prediction</h1>
 
 
 ### Introdução
@@ -33,7 +33,7 @@ Estrutura da tabela:
 
 
 
-Pra criar minha predição eu segui o passo à passo disponivel pela Microsoft: [mslearn-ai-fundamentals]
+Pra criar minha predição eu segui o passo à passo disponivel pela Microsoft: [mslearn-ai-fundamentals](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
 
 ##
 
