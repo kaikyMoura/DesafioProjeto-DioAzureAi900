@@ -1,0 +1,44 @@
+// A partir da coluna PTS returna um predição da media de pontos por jogo
+
+{
+  "input_data": {
+    "columns": [
+      "Player",
+      "Team",
+      "Age",
+      "GP",
+      "W",
+      "L",
+      "Min",
+      "FGM",
+      "FGA",
+      "FG%",
+      "3PM",
+      "3PA",
+      "3P%",
+      "FTM",
+      "FTA",
+      "FT%",
+      "OREB",
+      "DREB",
+      "REB",
+      "AST",
+      "TOV",
+      "STL",
+      "BLK",
+      "PF",
+      "FP",
+      "DD2",
+      "TD3",
+      "Plus/Minus"
+    ],
+    "index": [1],
+    "data": [["LeBron James", "LAL", 40, 47, 29, 18, 34.6, 9.4,18.2,51.7,2.2,5.6,39.2,3.4,4.5,76.4,0.9,6.9,7.8,9,3.9,0.9,0.5,1.4,47.6,24,10,-0.6]]
+  }
+}
+
+// Resultado:
+
+[
+  25.108047065510508
+]
